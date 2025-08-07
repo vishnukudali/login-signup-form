@@ -1,0 +1,52 @@
+.login-container {
+    width: 18%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.signup-container {
+    width: 18%;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.extra {
+    margin: auto;
+    width: 16%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+input {
+    padding: 5px 105px 5px 0px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+body {
+    width: 100%;
+    background-color: lightblue;
+}
+
+button {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 10px 115px 5px;
+    text-align: center;
+}
+
+
+
+span {
+    text-align: center;
+}
