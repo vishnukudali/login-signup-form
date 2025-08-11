@@ -34,8 +34,9 @@ input {
 }
 
 body {
-    width: 100%;
+    margin: auto;
     background-color: lightblue;
+    height: 100vh;
 }
 
 button {
