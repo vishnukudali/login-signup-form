@@ -1,0 +1,99 @@
+.login-container {
+    width: 350px;
+    /* instead of 18% */
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.signup-container {
+    width: 350px;
+    /* instead of 18% */
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.extra {
+    margin: auto;
+    width: 350px;
+    /* same width as form */
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 6px 0 3px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    /* full width inside container */
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    /* button same width as input */
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #888;
+    text-align: center;
+    cursor: pointer;
+}
+
+span {
+    text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    .dashboard {
+        color: red;
+        width: fit-content;
+        margin: auto;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .dashboard {
+        color: blue;
+        width: fit-content;
+        margin: auto;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width:729px) {
+    .dashboard {
+        color: violet;
+        width: fit-content;
+        margin: auto;
+        font-size: 2rem;
+    }
+}
