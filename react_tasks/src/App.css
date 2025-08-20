@@ -1,6 +1,6 @@
 .login-container {
     width: 350px;
-    /* instead of 18% */
+
     background-color: white;
     border-radius: 10px;
     margin: auto;
@@ -9,7 +9,7 @@
 
 .signup-container {
     width: 350px;
-    /* instead of 18% */
+
     background-color: white;
     border-radius: 10px;
     margin: auto;
@@ -19,7 +19,7 @@
 .extra {
     margin: auto;
     width: 350px;
-    /* same width as form */
+
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ label {
 
 input {
     width: 100%;
-    /* full width inside container */
+
     padding: 8px;
     margin: 5px 0;
     border-radius: 5px;
@@ -58,7 +58,7 @@ body {
 
 button {
     width: 100%;
-    /* button same width as input */
+
     background-color: lightgreen;
     border-radius: 5px;
     padding: 10px;

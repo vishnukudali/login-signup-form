@@ -1,9 +1,9 @@
-// App.jsx
+
 import React, { useState } from "react";
 import "./App.css";
 
 export default function App() {
-  const [page, setPage] = useState("signup"); // default: signup
+  const [page, setPage] = useState("signup");
   const [loginData, setLoginData] = useState({ email: "", password: "" });
   const [signupData, setSignupData] = useState({
     firstName: "",
@@ -13,7 +13,6 @@ export default function App() {
     confirmPassword: "",
   });
 
-  // Login Handlers
   const handleLoginChange = (e) => {
     setLoginData({ ...loginData, [e.target.name]: e.target.value });
   };
